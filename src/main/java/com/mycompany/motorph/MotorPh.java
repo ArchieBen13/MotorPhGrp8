@@ -13,7 +13,7 @@ public class MotorPh {
 
 public static void main(String[] args) {
     try {
-      File myObj = new File("C:\\Users\\UERM\\Documents\\NetBeansProjects\\MotorPhEmployee\\employees.csv");
+      File myObj = new File("D:\\Comp Prog Group 8\\EmployeeMotorph\\Employees.csv");
       Scanner myReader = new Scanner(myObj);
       while (myReader.hasNextLine()) {
         String data = myReader.nextLine();
