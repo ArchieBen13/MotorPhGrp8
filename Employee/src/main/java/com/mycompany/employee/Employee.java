@@ -12,7 +12,7 @@ String splitBy = ",";
 try   
 {  
 //parsing a CSV file into BufferedReader class constructor  
-BufferedReader br = new BufferedReader(new FileReader("D:\\Comp Prog Group 8\\Employee\\Employees.csv"));  
+BufferedReader br = new BufferedReader(new FileReader("C:\\Users\\Archie\\Documents\\NetBeansProjects\\MotorPhGrp8\\MotorPhGrp8\\Employee\\Employees.csv"));  
 while ((line = br.readLine()) != null)   //returns a Boolean value  
 {  
 String[] employee = line.split(splitBy);    // use comma as separator  
